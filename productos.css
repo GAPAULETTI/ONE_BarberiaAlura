@@ -82,3 +82,40 @@ footer{
     color: aliceblue;
     padding: 20px;
 }
+/* Media queries */
+
+@media screen and (max-width:480px){
+
+    h1{
+        text-align: center;
+        width: 100%;
+    }
+    .caja nav ul{
+        display: inline-block;
+        font-size: 30%;
+       
+    }
+    .caja nav ul li {
+        width: 100%;
+    }
+    nav{
+        position: static;
+    }
+
+    .caja, .principal, .productos {
+        width: auto;
+    }
+
+    main ul {
+        display: inline-block;
+    }
+    .productos li {
+        width: 100%;
+        height: fit-content;
+    }
+
+
+    .lista-diferenciales, .imagen-diferencial{
+        width: 100%;
+    }
+}
